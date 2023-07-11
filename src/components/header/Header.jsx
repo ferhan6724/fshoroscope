@@ -1,13 +1,13 @@
 
 
-const header = () => {
+const Header = () => {
   return (
-    <div>
+    <div className="header">
         
-        <h1 className="header-text">Who Are you</h1>
+        <span className="text-shadow">Who Are You</span>
 
     </div>
   )
 }
 
-export default header
+export default Header
